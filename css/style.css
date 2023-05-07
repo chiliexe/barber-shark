@@ -1,0 +1,84 @@
+html {
+  --background: #f5f5f5;
+  --dark: #403b32;
+  --darkbrown: #a67233;
+  --light-yallow: #ffcc8f;
+}
+html[data-theme="dark"] {
+  --background: #363636;
+  --dark: #ffffff;
+  --darkbrown: #a67233;
+  --light-yallow: #727272;
+  --box-shadow: #363636;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+}
+.sumary .text1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50.8572px;
+  line-height: 73px;
+
+  color: var(--dark);
+}
+
+.sumary {
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: var(--light-yallow);
+}
+.sumary .text2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  display: inline-block;
+  color: var(--dark);
+}
+
+.sumary .text3 {
+  font-family: "Jost";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: var(--dark);
+  text-align: right;
+}
+
+.cardDemo {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardDemo .card {
+  display: flex;
+  flex-direction: column;
+}
+.cardDemo .card img {
+  width: 300px;
+  height: 400px;
+}
+.cardDemo .card p {
+  width: 293px;
+  height: 94px;
+  text-align: center;
+  margin: auto;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  border-radius: 30px;
+  box-shadow: 1px 3px 3px var(--box-shadow);
+
+  color: var(--dark);
+}

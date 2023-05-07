@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slide.css" />
+    <link rel="stylesheet" href="./css/toggle-switch.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Rounded switch -->
+      <label class="switch">
+        <input type="checkbox" id="toggle" />
+        <span class="slider round"></span>
+      </label>
+    </header>
+    <main>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="./img/Rectangle6.png" style="width: 100%" />
+          <div class="text">
+            <span class="text1">A melhor</span><br />
+            <span class="text2">Barbearia de Natal</span><br />
+            <span class="text3"
+              ><br />
+              Na Dr Barbeiro você tem o melhor serviço e melhor atendimento
+              <br />
+              acompanhado de um chopp Heineken bem gelado! </span
+            ><br />
+            <span class="text4">Agendar</span>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/Rectangle10.png" style="width: 100%" />
+          <div class="text">
+            <span class="text1">O melhor programador</span><br />
+            <span class="text2">Matheus Erick</span><br />
+            <span class="text3"
+              ><br />
+              na sua residencia free
+              <br />
+              acompanhado de um chopp Heineken bem gelado! </span
+            ><br />
+            <span class="text4">Agendar</span>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/Rectangle6.png" style="width: 100%" />
+          <div class="text">
+            <span class="text1">Em Parceria</span><br />
+            <span class="text2">Grupo Mais - Aessoria</span><br />
+            <span class="text3"
+              ><br />
+              Na Dr Barbeiro você tem o melhor serviço e melhor atendimento
+              <br />
+              acompanhado de um chopp Heineken bem gelado! </span
+            ><br />
+            <span class="text4">Agendar</span>
+          </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center" class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+
+      <section class="sumary">
+        <span class="text1">Mais de 633 clientes satifeitos</span>
+        <span class="text2">
+          Eu escolhi a Dr. Barbeiro porque tem o ambiente muito agradável e os
+          barbeiros sempre são bem atensiosos
+        </span>
+        <p class="text3">Lucas Silva, 22 anos</p>
+      </section>
+
+      <section class="cardDemo">
+        <div class="card">
+          <img src="./img/Rectangle7.png" alt="" />
+          <p>Design de Barbas de acordo com o Rosto</p>
+        </div>
+        <div class="card">
+          <img src="./img/Rectangle8.png" alt="" />
+          <p>Cortes de cabelos atualizados</p>
+        </div>
+        <div class="card">
+          <img src="./img/Rectangle9.png" alt="" />
+          <p>Ambiente confortável</p>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="./js/slide.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
